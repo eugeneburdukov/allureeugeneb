@@ -1,14 +1,14 @@
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
+import org.testng.Assert;
+import org.testng.annotations.Test;
 
 public class AllureReportTest {
     @Test
     public void doAllureTest() {
-        Assertions.assertEquals(2,2);
-//        Assert.assertEquals(123, 123);
+        Assert.assertEquals(2,2);
     }
 
-    public void doAllureSecondTest() {
-//        Assert.assertEquals(123, 124);
+    @Test
+    public void doSecondAllureTest() {
+        Assert.assertEquals(3,4);
     }
 }
