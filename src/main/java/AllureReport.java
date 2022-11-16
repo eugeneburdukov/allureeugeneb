@@ -1,7 +1,6 @@
 public class AllureReport {
 
     public static int doCalculate(int n){
-
         return 2 * n;
     }
 
