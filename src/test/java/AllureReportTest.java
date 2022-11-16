@@ -15,7 +15,7 @@ public class AllureReportTest extends AllureReport {
     public void toCheckWar2() {
         AllureReport allureReport = new AllureReportTest();
         int temp1 = doCalculate(30);
-        Assert.assertEquals(61, temp1);
+        Assert.assertEquals(60, temp1);
     }
 
 }
